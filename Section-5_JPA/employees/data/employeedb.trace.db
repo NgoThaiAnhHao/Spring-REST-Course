@@ -157,3 +157,15 @@ Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
 	... 45 more
+2026-05-22 16:31:28.272324+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SYSTEM_USERS" not found; SQL statement:
+SELECT user_id, password, active FROM system_users WHERE user_id=? [42102-240]
+2026-05-22 16:32:10.331157+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SYSTEM_USERS" not found; SQL statement:
+SELECT user_id, password, active FROM system_users WHERE user_id=? [42102-240]
+2026-05-22 16:32:31.637971+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SYSTEM_USERS" not found; SQL statement:
+SELECT user_id, password, active FROM system_users WHERE user_id=? [42102-240]
+2026-05-22 16:33:22.283892+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SYSTEM_USERS" not found; SQL statement:
+SELECT user_id, password, active FROM system_users WHERE user_id=? [42102-240]
